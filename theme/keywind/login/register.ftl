@@ -9,7 +9,10 @@
   section
 >
   <#if section="header">
-    ${msg("registerTitle")}
+                <div class="space-y-3 tracking-wider">
+                      <div class="text-xl text-teal-500">Create your Safe account</div>
+                      <div class="text-lg"> Let's get you onboard, get started in minutes.</div>
+                    </div>
   <#elseif section="form">
     <form action="${url.registrationAction}" class="m-0 space-y-4" method="post">
       <div>
